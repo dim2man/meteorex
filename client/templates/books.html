@@ -1,0 +1,8 @@
+<template name="books">
+    <h1>List of books available</h1>
+    <ul>
+        {{#each books}}
+        <li>{{title}} <a href="#" id="{{_id}}" class="book_delete">delete</a></li>
+        {{/each}}
+    </ul>
+</template>
